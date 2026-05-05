@@ -39,6 +39,11 @@ Query Handler Agent          ← classifies intent
 # 1. Clone
 git clone https://github.com/YOUR_USERNAME/contentalchemy.git
 cd contentalchemy
+After step 1 leverage Makefile which is present now.
+make install
+make run
+
+Below are the individual steps if needed.
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -49,6 +54,8 @@ cp .env.example .env
 
 # 4. Run
 streamlit run src/web_app/app.py
+
+
 ```
 
 ## Environment Variables
